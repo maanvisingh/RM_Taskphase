@@ -6,7 +6,8 @@
 
 ## TinkerCad Circuits
 - [Blinking an LED](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Blinking%20an%20LED.png)
-- [Fading an LED](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Fading%20an%20LED.png)
+- [Fading an LED](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Fading%20an%20LED.png)  
+- [Servo Motor: Inputting any value in degrees](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Servo%20Motor%20(Inputting%20any%20value%20of%20degrees).png)
   
 ## C++ Worksheets  
 - [Worksheet 1: Matrix](https://github.com/maanvisingh/RM_Taskphase/tree/main/C%2B%2B%20Worksheets/Worksheet%201)  
