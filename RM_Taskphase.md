@@ -15,4 +15,4 @@
 - [Worksheet 3: Recursion](https://github.com/maanvisingh/RM_Taskphase/tree/main/C%2B%2B%20Worksheets/Worksheet%203)
 
 ## Courses Completed 
-- [The Arduino Platform and C Programming](https://github.com/maanvisingh/RM_Taskphase/blob/main/Courses%20Completed/The%20Arduino%20Platform%20and%20C%20Programming.pdf)
+- ![The Arduino Platform and C Programming](https://github.com/maanvisingh/RM_Taskphase/blob/main/Courses%20Completed/The%20Arduino%20Platform%20and%20C%20Programming.pdf)
