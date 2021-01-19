@@ -10,7 +10,6 @@
 - [Fading an LED](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Fading%20an%20LED.png)  
 - [Servo Motor: Inputting any value in degrees](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Servo%20Motor%20(Inputting%20any%20value%20of%20degrees).png)  
 - [Button as a Toggle Switch](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Button%20as%20a%20Toggle%20Switch.png)
-- [L293D Dc Motor](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/L293D%20Dc%20Motor.png)
 - [Traffic Signal](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Traffic%20Light.png)
   
 ## C++ Worksheets  
