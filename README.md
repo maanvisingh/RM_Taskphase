@@ -1,5 +1,5 @@
 # RM_Taskphase
-**Note:** I was not able to attend the initial bit of the task phase but I have completed all the tasks till date. I started from 19/12/2020.
+**Note:** I was not able to attend the initial bit of the task phase but I have completed all the tasks till date. I started the taskphase from 19/12/2020 onwards.
 
 ## Progress Report  
 - [Report 1: 19/12/2020 - 24/12/2020](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%201.pdf)  
