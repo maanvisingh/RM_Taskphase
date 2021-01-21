@@ -13,7 +13,7 @@
 - [Button as a Toggle Switch](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Button%20as%20a%20Toggle%20Switch.png)
 - [Traffic Signal](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Traffic%20Light.png)
 - [2 Wheeled Holonomic Drive L293D](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/2%20Wheeled%20Holomic%20drive%20TinkerCad.pdf)
-- [LCD 1602A Hello Worls](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/LCD%20Hello%20World.png)
+- [LCD 1602A Hello World](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/LCD%20Hello%20World.png)
   
 ## C++ Worksheets  
 - [Worksheet 1: Matrix](https://github.com/maanvisingh/RM_Taskphase/tree/main/C%2B%2B%20Worksheets/Worksheet%201)  
