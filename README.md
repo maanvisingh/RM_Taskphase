@@ -24,7 +24,10 @@
 - [The Arduino Platform and C Programming](https://github.com/maanvisingh/RM_Taskphase/blob/main/Courses%20Completed/The%20Arduino%20Platform%20and%20C%20Programming.pdf)
 - [MATLAB: OnRamp](https://github.com/maanvisingh/RM_Taskphase/blob/main/Courses%20Completed/MATLAB%20OnRamp.pdf)
 
-## Coding Tasks
+## BOT Coding Tasks
 - [Holonomic Drive Code](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Holonomic%20Drive%20Code.txt)
+- ![Reference Image](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Reference%20Image.png)
+- [Holonomic Drive Code (with fixed wheel angles)](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Holonomic%20Drive%20Code%20(with%20fixed%20wheel%20angles).txt)
+
 
 
