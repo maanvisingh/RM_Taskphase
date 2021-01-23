@@ -1,0 +1,45 @@
+#include <iostream>
+#include <cmath> //including the cmath library since we will be using pi, sin(x) and cos(x)
+
+using namespace std;
+
+float velocity(float Theta, float iTheta, float V, float w)
+{
+    float Radian = Theta*M_PI/180; //to convert degrees to radian
+    float iRadian = iTheta*M_PI/180;
+    float Vx = V*sin(Radian); //to find the horizontal component of the velocity
+    float Vy = V*cos(Radian); //to find the vertical component of the velocity
+    float Vi = Vy*cos(iRadian) + Vx*sin(iRadian) + w; //to find the required velocity of each wheel
+    return Vi;
+}
+
+int main()
+{
+    int N = 4; //total number of wheels in the bot
+    float Theta; //required angle at which the bot should move
+    float V; //required velocity of the bot
+    float iTheta[N]={-45,-135,135,45}; //array to store the angle at which each wheel is mounted
+    float Vi[N]; //array to store the required velocity of each wheel
+    float w;
+
+    cout<<"Enter the required final velocity of the bot\n";
+    cin>>V;
+    cout<<endl;
+
+    cout<<"Enter the required angle of the final velocity in degrees, taking the Vy axis as 0 degrees and anti-clockwise as +ve\n";
+    cin>>Theta;
+    cout<<endl;
+
+    cout<<"Enter the required angular velocity of the bot\n";
+    cin>>w;
+    cout<<endl;
+    cout<<endl;
+
+    for(int i=0;i<N;i++)
+    {
+        Vi[i]= velocity(Theta, iTheta[i], V, w); //calling the function to get the velocity of each wheel
+        cout<<"Velocity of wheel "<<i+1<<" is "<<Vi[i]<<"\n";
+        cout<<endl;
+    }
+}
+
