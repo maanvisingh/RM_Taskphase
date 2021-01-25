@@ -2,7 +2,7 @@
 **Note:** I was not able to attend the initial bit of the task phase but I have completed all the tasks till date. I started the taskphase from 19/12/2020 onwards.
 
 ## Progress Report  
-a) [Report 1: 19/12/2020 - 24/12/2020](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%201.pdf)  
+- [Report 1: 19/12/2020 - 24/12/2020](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%201.pdf)  
 - [Report 2: 04/01/2021 - 10/01/2021](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%202.pdf) 
 - [Report 3: 10/01/2021 - 17/01/2021](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%203.pdf)
 - [Report 4: 17/01/2021 - 24/01/2021](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%204.pdf)
