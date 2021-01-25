@@ -28,7 +28,8 @@
 
 ## BOT Coding Tasks
 - [Holonomic Drive Code](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Holonomic%20Drive%20Code.txt)
-![Reference Image](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Reference%20Image.png){:height="50%" width="50%"}
+![Reference Image](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Reference%20Image.png)
+<img src="https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Reference%20Image.png" width="100" height="100">
 - [Holonomic Drive Code (with fixed wheel angles)](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Holonomic%20Drive%20Code%20(with%20fixed%20wheel%20angles).txt)
 
 
