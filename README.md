@@ -5,6 +5,7 @@
 - [Report 1: 19/12/2020 - 24/12/2020](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%201.pdf)  
 - [Report 2: 04/01/2021 - 10/01/2021](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%202.pdf) 
 - [Report 3: 10/01/2021 - 17/01/2021](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%203.pdf)
+- [Report 4: 17/01/2021 - 24/01/2021](https://github.com/maanvisingh/RM_Taskphase/blob/main/Progress%20Reports/Progress%20Report%204.pdf)
 
 ## TinkerCad Circuits
 - [Blinking an LED](https://github.com/maanvisingh/RM_Taskphase/blob/main/TinkerCad_Circuits/Blinking%20an%20LED.png)
@@ -27,7 +28,7 @@
 
 ## BOT Coding Tasks
 - [Holonomic Drive Code](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Holonomic%20Drive%20Code.txt)
-![Reference Image](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Reference%20Image.png)
+![Reference Image](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Reference%20Image.png=10*10)
 - [Holonomic Drive Code (with fixed wheel angles)](https://github.com/maanvisingh/RM_Taskphase/blob/main/Coding%20Tasks/Holonomic%20Drive%20Code%20(with%20fixed%20wheel%20angles).txt)
 
 
