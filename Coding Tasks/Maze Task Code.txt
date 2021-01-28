@@ -1,0 +1,169 @@
+void setup()
+{
+  pinMode(LeftTrigPin, OUTPUT);
+  pinMode(LeftEchoPin, INPUT);
+  pinMode(RightTrigPin, OUTPUT);
+  pinMode(RightEchoPin, INPUT);
+  pinMode(FrontTrigPin, OUTPUT);
+  pinMode(FrontEchoPin, INPUT);
+  pinMode(RearTrigPin, OUTPUT);
+  pinMode(RearEchoPin, INPUT);
+  Serial.begin(9600)
+}
+
+int DistanceFromLeftSensor()
+{
+  digitalWrite(LeftTrigPin, LOW);
+  digitalWrite(LeftTrigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(LeftTrigPin, LOW);
+  
+  duration = pulseIn(LeftEchoPin, HIGH);
+  int distance = duration*0.0343/2;
+  return distance;
+}
+
+int DistanceFromRightSensor()
+{
+  digitalWrite(RightTrigPin, LOW);
+  digitalWrite(RightTrigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(RightTrigPin, LOW);
+  
+  duration = pulseIn(RightEchoPin, HIGH);
+  int distance = duration*0.0343/2;
+  return distance;
+}
+
+int DistanceFromFrontSensor()
+{
+  digitalWrite(FrontTrigPin, LOW);
+  digitalWrite(FrontTrigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(FrontTrigPin, LOW);
+  
+  duration = pulseIn(FrontEchoPin, HIGH);
+  int distance = duration*0.0343/2;
+  return distance;
+}
+
+int DistanceFromRearSensor()
+{
+  digitalWrite(RearTrigPin, LOW);
+  digitalWrite(RearTrigPin, HIGH);
+  delayMicroseconds(10);
+  digitalWrite(RearTrigPin, LOW);
+  
+  duration = pulseIn(RearEchoPin, HIGH);
+  int distance = duration*0.0343/2;
+  return distance;
+}
+
+void StopBot()
+{
+  //Stops the bot from moving
+}
+
+char Memory(char direction)
+{
+  int FrontDist = DistanceFromFrontSensor();
+  int RearDist = DistanceFromRearSensor();
+  int LeftDist = DistanceFromLeftSensor();
+  int RightDist = DistanceFromRightSensor(); 
+  
+  if(direction == 'F'|| direction == 'B')
+  {
+    if(LeftDist<=10)
+      move(30,270);
+    else if(RightDist<=10)
+      move(30, 90);
+  }
+  
+  else if
+  {
+    if(FrontDist<=10)
+      move(30,180);
+    else if(RearDist<=10)
+      move(30, 0);
+  }
+  
+}
+
+void Move(int v, int theta)
+{
+  if(theta==0)
+  {
+    char direction = F;
+    while(DistanceFromFrontSensor()>10)
+    {
+      //move forward
+    }
+    DectectObstacle(direction);
+  }
+  
+  else if(theta==90)
+  {
+    char direction = L;
+    while(DistanceFromLeftSensor()>10)
+    {
+      //move left
+    }
+    DectectObstacle(direction);
+  }
+    
+  else if(theta==180)
+  {
+    char direction = B;
+    while(DistanceFromRearSensor()>10)
+    {
+      //move backward
+    }
+    DectectObstacle(direction);
+  }
+    
+  else if(theta==270)
+  {
+    char direction = R;
+    while(DistanceFromRearSensor()>10)
+    {
+      //move backward
+    }
+    DectectObstacle(direction);
+  }  
+}
+
+
+int DetectObstacle(char direction)
+{
+  int FrontDist = DistanceFromFrontSensor();
+  int RearDist = DistanceFromRearSensor();
+  int LeftDist = DistanceFromLeftSensor();
+  int RightDist = DistanceFromRightSensor(); 
+  
+  if(direction=='F' && FrontDist <= 10)
+  {
+    StopBot(); 
+    Memory('F');
+  }
+  else if(direction=='B' && RearDist <= 10)
+  {
+    StopBot();
+    Memory('B');
+  }
+  else if(direction=='R' && RightDist <= 10)
+  {
+    StopBot();
+    Memory('R');
+  }
+  else if(direction=='L' && LeftDist <= 10)
+  {
+    StopBot();
+    Memory('L');
+  }
+}
+  
+  
+void loop()
+{
+  Move(30,0);
+}
