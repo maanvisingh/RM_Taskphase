@@ -1,5 +1,5 @@
 # RM_Taskphase
-[RoboManipal (RM)](https://robomanipal.com/#/) is the official Robotics Team of MAHE. The following repository contains some of the tasks that were completed during the 6 months taskphase period before getting recruited into the team.
+[RoboManipal (RM)](https://robomanipal.com/#/) is the official Robotics Team of [Manipal Academy of Higher Education](https://manipal.edu/mu.html). The following repository contains some of the tasks that were completed during the 6 months taskphase period before getting recruited into the team.
 
 **Note:** 
 Start date of the taskphase: 19/12/2020
